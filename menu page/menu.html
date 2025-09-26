@@ -1,48 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu - Future Coffee</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Future Coffee Shop | Menu</title>
+  <link rel="stylesheet" href="menu.css" />
 </head>
 <body>
+  <!-- Header -->
   <header>
+    <div class="logo">☕ Future Coffee</div>
     <nav>
-      <h1 class="logo">☕ Future Coffee</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html" class="active">Menu</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="location.html">Location</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <a href="../Home Page/index.html">Home</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="../About Page/about.html">About</a>
+      <a href="../Location Page/location.html">Location</a>
+      <a href="../Contact Page/contact.html">Contact</a>
     </nav>
   </header>
 
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Our Menu</h1>
+    <p>Crafted with passion, brewed with love.</p>
+  </section>
+
+  <!-- Coffee Menu -->
   <section class="menu">
-    <h2>Our Futuristic Menu</h2>
-    <div class="menu-items">
-      <div class="item">
-        <h3>AI-Optimized Latte</h3>
-        <p>Perfectly balanced latte crafted by AI.</p>
-        <span>$5.50</span>
+    <h2>☕ Coffee & Beverages</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="images/espresso.jpg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>Strong & bold Italian shot.</p>
+        <span class="price">$3.00</span>
       </div>
-      <div class="item">
-        <h3>Solar Espresso</h3>
-        <p>Brewed with renewable solar energy.</p>
-        <span>$4.00</span>
+      <div class="menu-item">
+        <img src="images/cappuccino.jpg" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Espresso with silky foam.</p>
+        <span class="price">$4.50</span>
       </div>
-      <div class="item">
-        <h3>Eco Cold Brew</h3>
-        <p>Refreshing cold brew with eco-friendly beans.</p>
-        <span>$6.00</span>
+      <div class="menu-item">
+        <img src="images/latte.jpg" alt="Latte">
+        <h3>Latte</h3>
+        <p>Smooth espresso & milk.</p>
+        <span class="price">$4.00</span>
+      </div>
+      <div class="menu-item">
+        <img src="images/mocha.jpg" alt="Mocha">
+        <h3>Mocha</h3>
+        <p>Espresso with chocolate.</p>
+        <span class="price">$4.80</span>
+      </div>
+    </div>
+
+    <h2>🍰 Desserts & Snacks</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="images/cake.jpg" alt="Chocolate Cake">
+        <h3>Chocolate Cake</h3>
+        <p>Rich layered chocolate cake.</p>
+        <span class="price">$3.50</span>
+      </div>
+      <div class="menu-item">
+        <img src="images/croissant.jpg" alt="Croissant">
+        <h3>Croissant</h3>
+        <p>Freshly baked buttery delight.</p>
+        <span class="price">$2.50</span>
+      </div>
+      <div class="menu-item">
+        <img src="images/muffin.jpg" alt="Blueberry Muffin">
+        <h3>Blueberry Muffin</h3>
+        <p>Soft & fluffy muffin with berries.</p>
+        <span class="price">$2.80</span>
       </div>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Future Coffee Shop. All Rights Reserved.</p>
+    <p>© 2025 Future Coffee Shop | Brewed with ❤️</p>
   </footer>
+
+  <script src="menu.js"></script>
 </body>
 </html>
