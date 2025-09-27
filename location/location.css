@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf6f0;
+  color: #3e2723;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #3e2723;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+header nav a.active,
+header nav a:hover {
+  color: #ffcc80;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffcc80;
+  color: #3e2723;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Location Section */
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 30px;
+}
+
+.location-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.location-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #3e2723;
+}
+
+.location-info p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.map-container {
+  flex: 2;
+  min-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: #3e2723;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
