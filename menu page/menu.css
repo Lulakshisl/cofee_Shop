@@ -4,14 +4,14 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #f8f5f0; /* light cream background */
+  background: #080e20; /* light cream background */
   color: #3b2f2f;
 }
 
 /* Header */
 header {
-  background: #4b2c20; /* Dark coffee brown */
-  color: #fff;
+  background: #232121; /* Dark coffee brown */
+  color: #f5efef;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,7 +61,7 @@ header nav a.active {
 .menu h2 {
   font-size: 2rem;
   margin-bottom: 25px;
-  color: #4b2c20;
+  color: #22bad8;
 }
 
 .menu-grid {
@@ -115,4 +115,8 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px;
+}
+
+hr{
+  color: #483024;
 }
