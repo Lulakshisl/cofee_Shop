@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bean & Brew - Coffee Shop</title>
+  <meta name="description" content="Bean & Brew - Your neighborhood coffee shop. Freshly roasted beans, handcrafted drinks, and cozy vibes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2615.svg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#hero" class="logo">Bean<span>&</span>Brew</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" data-nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#locations">Locations</a>
+        <a href="#contact" class="btn btn-sm">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Craft Coffee. Cozy Moments.</h1>
+          <p>Small-batch roasts and handcrafted drinks served with a smile. Settle in, sip slow.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#menu">Explore Menu</a>
+            <a class="btn btn-outline" href="#locations">Find Us</a>
+          </div>
+        </div>
+        <div class="hero-media" role="img" aria-label="A latte with heart art and coffee beans"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div class="img-tile about-img" role="img" aria-label="Barista pouring latte art"></div>
+        <div class="copy">
+          <h2>About Bean & Brew</h2>
+          <p>We partner with sustainable farms to source the finest beans, then roast in-house to bring out each origin’s unique character. Whether you’re a cappuccino connoisseur or a cold brew devotee, we’ve got your cup.</p>
+          <ul class="checks">
+            <li>Single-origin & seasonal blends</li>
+            <li>Fresh pastries baked daily</li>
+            <li>Plant-based milk options</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section alt">
+      <div class="container">
+        <h2>Customer Favorites</h2>
+        <p class="section-sub">Handpicked by our regulars. Brewed to perfection.</p>
+        <div class="grid cards">
+          <article class="card">
+            <div class="card-media" style="--bg:url('https://images.unsplash.com/photo-1502462041640-b3d7e50d0660?q=80&w=1200&auto=format&fit=crop');"></div>
+            <div class="card-body">
+              <h3>Vanilla Latte</h3>
+              <p>Espresso, steamed milk, and a touch of Madagascar vanilla.</p>
+              <span class="price">$4.50</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media" style="--bg:url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop');"></div>
+            <div class="card-body">
+              <h3>Classic Cappuccino</h3>
+              <p>Balanced espresso with velvety foam. A timeless favorite.</p>
+              <span class="price">$4.00</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media" style="--bg:url('https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=1200&auto=format&fit=crop');"></div>
+            <div class="card-body">
+              <h3>Iced Cold Brew</h3>
+              <p>Slow steeped for 18 hours. Smooth, bold, and refreshing.</p>
+              <span class="price">$4.75</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-media" style="--bg:url('https://images.unsplash.com/photo-1517705008128-361805f42e86?q=80&w=1200&auto=format&fit=crop');"></div>
+            <div class="card-body">
+              <h3>Mocha Bliss</h3>
+              <p>Rich cocoa meets espresso. Topped with a dollop of cream.</p>
+              <span class="price">$5.00</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="locations" class="section">
+      <div class="container">
+        <h2>Visit Our Locations</h2>
+        <p class="section-sub">Come by for a cup and stay for the vibe.</p>
+        <div class="grid locations">
+          <div class="loc">
+            <h3>Downtown</h3>
+            <p>123 Roast St, Central City</p>
+            <p>Mon–Sun: 7am – 7pm</p>
+          </div>
+          <div class="loc">
+            <h3>Riverside</h3>
+            <p>45 Bean Blvd, Riverside</p>
+            <p>Mon–Sun: 8am – 8pm</p>
+          </div>
+          <div class="loc">
+            <h3>Market Square</h3>
+            <p>98 Brew Ave, Old Town</p>
+            <p>Mon–Fri: 7am – 6pm</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container two-col stack">
+        <div class="copy">
+          <h2>Say Hello</h2>
+          <p>Have a question, catering inquiry, or feedback? Send us a note and we’ll get back soon.</p>
+          <form id="contactForm" class="form">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@email.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="How can we help?" required></textarea>
+            </div>
+            <button class="btn" type="submit">Send Message</button>
+            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="img-tile contact-img" role="img" aria-label="Cozy coffee shop interior with plants"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Bean & Brew. All rights reserved.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+        <a href="#" aria-label="Facebook">📘</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
