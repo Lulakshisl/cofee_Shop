@@ -4,14 +4,14 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #080e20; /* light cream background */
+  background: #010513; /* light cream background */
   color: #3b2f2f;
 }
 
 /* Header */
 header {
-  background: #232121; /* Dark coffee brown */
-  color: #f5efef;
+  background: #1f1d34; /* Dark coffee brown */
+  color: #61bde8;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -117,6 +117,3 @@ footer {
   padding: 20px;
 }
 
-hr{
-  color: #483024;
-}
